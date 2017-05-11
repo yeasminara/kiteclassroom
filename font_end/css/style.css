@@ -1,0 +1,254 @@
+@charset "utf-8";
+/* CSS Document */
+
+.header{
+	background: #056839;
+	height:100px;
+	position: relative;
+	overflow: hidden;
+}
+
+.login_panel{
+	background-color: #8CC63E; 
+	position: relative; 
+	right:0;  
+	z-index:100; 
+	padding: 0 15px 15px 15px!important; 
+/*width: 23% !important;*/
+overflow: hidden;
+	
+}
+.box{
+	background-color: #056839; 
+	position: relative; 
+	right:0;  
+	z-index:100; 
+	padding: 0 15px 15px 15px!important; 
+/*width: 23% !important;*/
+overflow: hidden;
+margin-top: 15px;
+color: #fff;	
+}
+.login_panel img{
+    width: auto;
+}
+.login_form label{
+	clear: both; 
+	color: #111;
+	font-size: 20px;
+}
+
+.login_form input[type="text"],.login_form input[type="password"]{
+	width: 100%;
+	height: 28px;
+	padding: 6px;
+	margin-bottom: 10px;
+}
+
+
+
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  padding-top: 28px;
+  background: #056839;
+}
+
+ul.topnav li {float: left; text-align: center; line-height: 20px;}
+
+ul.topnav li a {
+  display: inline-block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+ul.topnav li a:hover {background-color: #034224;}
+
+ul.topnav li.icon {display: none;}
+
+@media screen and (max-width:680px) {
+  ul.topnav li:not(:first-child) {display: none;}
+  ul.topnav li.icon {
+    float: right;
+    display: inline-block;
+  }
+}
+
+@media screen and (max-width:680px) {
+  ul.topnav.responsive {position: relative;}
+  ul.topnav.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  ul.topnav.responsive li {
+    float: none;
+    display: inline;
+  }
+  ul.topnav.responsive li a {
+    display: block;
+    text-align: left;
+  }
+}
+
+.margin-top{
+	margin-top: 15px;
+}
+
+.padding-top{
+	padding-top: 1rem;
+}
+
+.padding-bottom{
+	padding-bottom: 1rem;
+}
+.title{
+	padding: .50rem .60rem;
+	background: #056839;
+	color: #fff;
+}
+.box2{
+	background: #fff;
+	color: #222;
+	padding: .50rem .60rem;
+	
+}
+.box2 p{
+}
+
+.send{
+	background: #fff;
+	color: #056839;
+	font-weight: bold;
+}
+
+.send:hover{
+	background: #8CC63E;
+	color: #fff;
+}
+
+footer label, footer p{
+	color: #fff;
+	font-weight: 600;
+}
+footer textarea{
+	height: 9rem;
+}
+
+.contact_title{
+	text-align: center;
+	color: #fff;
+	text-transform:uppercase;
+}
+.social_icon p{
+	margin-bottom: .4rem
+}
+.padding_left_none{
+	padding-left: 0 !important;
+}
+.padding_right_none{
+	padding-right: 0 !important;
+}
+.text_right{
+	text-align: right;
+}
+
+.title2{
+	text-align: center;
+	
+	text-transform: uppercase;
+	color: #fff;
+}
+.news_div{
+	margin:1px !important;
+	background: #ccc;
+	height: 150px;
+	width: 300px;
+}
+.news_div img{
+	text-align: center;
+	position: relative;
+	left: 0;
+	right: 0;
+	height: 100%;
+}
+.title3{
+	text-align: center;
+	
+	text-transform: uppercase;
+	color: #444;
+	background: #fff;
+	margin: 1px;
+	padding: 1rem 0;
+}
+.innovation_box{
+	height: 100%;
+	width: 100%;
+	text-align: center;
+	vertical-align: middle;
+	position:absolute;
+	top: 0;
+	background:#111;
+	opacity:.6;
+	color: #fff;
+}
+
+.innovation_box h5{
+	font-weight: 700;
+	padding-top: 5rem;
+   opacity:1;
+   text-transform: uppercase;
+}
+.innovation_box h5 a{
+	color: #fff;
+}
+.position_relative{
+	position: relative;
+}
+ a:hover .innovation_box h5{
+	color: #15F98D;
+}
+.login_panel_main{
+	position: absolute; 
+position: absolute;
+right: 0px;
+z-index: 100;
+padding: 0 15px 15px 15px !important;
+top: 2rem;
+}
+
+.innovation, .news{
+	background: #056839;
+}
+.innovation_div{
+	width: 100%;
+	height: 208px;
+}
+.innovation div img{
+	height: 100%;
+}
+@media only screen and  (min-width:980px) {
+	.login_panel{
+		
+		
+	}
+}
+@media screen and (max-width:680px) {
+	.login_panel_main{
+		position: relative;
+		clear: both;
+		top: 0;
+		right: 0;
+		left: 0;
+	}
+	.login_panel{
+		right: 0;
+		left: 0;
+	}
+}
